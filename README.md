@@ -2,7 +2,7 @@
 
 Starter application for microservices architecture with NodeJS (Enterprise Tech Meetup)
 
-### Folder Structure
+## Folder Structure
 
 ```
 ├── core_gateway                    // Gateway and Routing Middleware
@@ -11,7 +11,9 @@ Starter application for microservices architecture with NodeJS (Enterprise Tech 
 └── README.md
 ```
 
-### Brief Architecture
+## Brief Architecture
+
+![image](https://raw.githubusercontent.com/nitish-mehta/microservices-101/master/assets/basic-design.JPG)
 
 **CORE GATEWAY**
 This service acts as the gateway for complete back-end for this application. All services are routed through this post authentication and necessary checks.
@@ -21,14 +23,16 @@ This service acts as the gateway for complete back-end for this application. All
 - Manages User Accounts, Authentication and Basic Authorization
 - Handles routing to appropriate service
 
-**SERVICE CHANNELS (NODEJS)**
+
+**SERVICE 1: CHANNELS (NODEJS)**
 This is a sample service written in NodeJS. Further Details:
 
 - Node JS + MongoDB + Mongoose
 - Features: Allows user to maintain custom channels and add comments to each channel (similar to slack without collaboration)
 - Uses the central user for application specific authorization management
 
-**SERVICE TASKS (GOLANG)**
+
+**SERVICE 2:  TASKS (GOLANG)**
 This is a sample service written in GoLang. Further Details:
 
 - GoLang
