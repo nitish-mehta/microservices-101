@@ -1,0 +1,26 @@
+{
+  "name": "service_channels_nodejs",
+  "version": "1.0.0",
+  "description": "Microservice for Slack Like Channels",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitish-mehta/microservices-101.git"
+  },
+  "keywords": [
+    "slack",
+    "microservice",
+    "channel",
+    "meetup",
+    "integrtr"
+  ],
+  "author": "Nitish Mehta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitish-mehta/microservices-101/issues"
+  },
+  "homepage": "https://github.com/nitish-mehta/microservices-101#readme"
+}
