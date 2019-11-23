@@ -1,9 +1,8 @@
 /**
- * @fileoverview: This is the central point of authentication for two things:-
- * 1. is function validates that a user is of particular role or note. This is used to provide functional level auth.
- * 2. validate is used to authorize middle request and then pass on to respective micro-service.
- */
-
+- * @fileoverview: This is the central point of authentication
+- * 1. `is` function validates that a user is of particular role. This is used to provide functional level auth.
+- * 2. `validate` is used to authorize middle request and then pass on to respective micro-service.
+- */
 const { ERROR_TYPES, USER_ROLES } = require("../config/constants");
 var cache = require("memory-cache");
 const libUser = require("../lib/admin/user");
