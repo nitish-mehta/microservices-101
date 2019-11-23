@@ -1,6 +1,6 @@
 # microservices-101
 
-Starter application for microservices architecture with NodeJS (Enterprise Tech Meetup)
+Starter application for microservices architecture with NodeJS (Conducted as part of [Enterprise Tech Meetup](https://www.meetup.com/Delhi-StartUp-Events/events/266257935/))
 
 ## Folder Structure
 
@@ -10,6 +10,16 @@ Starter application for microservices architecture with NodeJS (Enterprise Tech 
 ├── service_tasks_golang            // microservice written in golang
 └── README.md
 ```
+
+## Pre-requisites & Installations Required
+
+* NPM & NodeJS - [Download](https://nodejs.org/en/download/)
+* Postgres - [Download](https://www.postgresql.org/download/)
+* MongoDB - [Download](https://docs.mongodb.com/v3.2/tutorial/install-mongodb-on-windows/)
+* Go - [Download](https://golang.org/dl/)
+* Postman - [Download](https://www.getpostman.com/downloads/)
+
+*Postman Link for related APIs - [Link](https://www.getpostman.com/collections/3d7183819c7b9bae2280)*
 
 ## Brief Architecture
 
@@ -38,3 +48,14 @@ This is a sample service written in GoLang. Further Details:
 - GoLang
 - Features: Allows user to create tasks with a specified deadline and view them.
 - Uses the central user for application specific authorization management
+
+
+## Contributions
+
+
+- Nitish Mehta ( [LinkedIn](https://www.linkedin.com/in/nitishmehta08) )
+
+
+**Powered By**
+
+![image](https://raw.githubusercontent.com/nitish-mehta/microservices-101/master/assets/integrtr_logo.png)
